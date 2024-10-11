@@ -8,7 +8,7 @@
     <hr color="orange" size="7">
     <center>
         <h1>
-            <font color="blue">Pizza Shop 2.0</font>
+            <font color="blue">Pizza Shop 7.0</font>
         </h1>
     </center>
     <hr color="green" size="7">
@@ -32,10 +32,66 @@
     <br>
     <fieldset>
         <legend>Pizza Topping Detail</legend>
-        <table align="center" bgcolor="lightyellow" width="45%" height="25%">
+        <table align="center" bgcolor="lightyellow" width="45%" height="15%">
             <tr>
-                <th align="right">Pizza Type</th>
-                <input type="checkbox" name="PizzaType" value="Supreme	Qt">
+                <th align="right" rowspan="3">Pizza Type : </th>
+                <td width="18%"><input type="checkbox" name="PizzaType" value="Supreme">  Supreme </td>  
+                <td  align="left">Qt.<input type="number" min="0" max="16" width="10%" name="quantity"></td>
+            </tr>
+            <tr>
+                <td width="18%"><input type="checkbox" name="PizzaType" value="Vegetarian">  Vegetarian  </td>  
+                <td align="=left">Qt.<input type="number" min="0" max="16" width="10%" name="quantity"></td>
+            </tr>
+            <tr>
+                <td width="18%"><input type="checkbox" name="PizzaType" value="Farmville">  Farmville </td>
+                <td align="left">Qt.<input type="number" min="0" max="16" width="10%" name="quantity"></td>
+            </tr>
+
+            <tr>
+                <th align="right">Pizza Size :</th>
+                <td colspan="3"><input type="radio" name="PizzaSize" value="Small">Small
+                <input type="radio" name="PizzaSize" value="Medium">Medium
+                <input type="radio" name="PizzaSize" value="Large">Large</td>
+            </tr>
+
+            <tr>
+                <th align="right">Pizza Sauce :</th>
+                <td>
+                    <select>
+                        <option selected hidden>---Sauce Type---</option>
+                        <option value="Tomato"> Tomato</option>
+                        <option value="Chilly"> Chilly</option>
+                        <option value="BBQ"> BBQ</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th align="right"> Extra Topping</th>
+                <td colspan="2">
+                    <table align="left" bgcolor="fac8e5">
+                        <tr>
+                            <td><input type="checkbox" name="topping" value="Cheese">Cheese</td>
+                            <td><input type="checkbox" name="topping" value="Extra veg.">Extra veg.</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="topping" value="Roasted Broccoli">Roasted Broccoli</td>
+                            <td><input type="checkbox" name="topping" value="Black olives">Black olives</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td  colspan="3" >
+                <table align="center">
+                    <caption align="center"><b>Delivery Instruction<b></caption>
+                <td align="center"><textarea height="50%"></textarea></td>
+                </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3" align="center"><button>Send My Order</button></td>
             </tr>
         </table>
     </fieldset>
