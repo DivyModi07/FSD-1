@@ -1,0 +1,16 @@
+.class1{
+        font-family: Arial;
+        text-align: justify;
+        font-size: 20px;
+        background-color: cyan; 
+}
+
+#class2{
+    ul>li{
+        color: red;
+    }
+
+    ul p{
+        color: green;
+    }
+}

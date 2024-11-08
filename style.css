@@ -1,0 +1,7 @@
+/* p{color:pink; font-size: 20px;}
+div{background-color:green;} */
+
+*{text-align: center;}  /* universal selector */
+
+p.cls{color: tomato;}
+p.large{font-size: 30px;}
