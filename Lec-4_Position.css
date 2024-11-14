@@ -1,0 +1,40 @@
+body{margin: 100px;}
+.parent{width: 500px;border: 1px solid red;margin: auto;text-align: center;}
+.c1{background-color: powderblue;
+    position: static;
+    left: 40px;/*Not aplicable in static*/
+    top: 50px;
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+    margin: 20px;}
+.c2 {
+    background-color:royalblue ;
+    position: fixed;
+    left: 340px;
+    top: 350px;
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+.c3 {
+    background-color: sienna;
+    position: absolute;
+    left: 340px;
+    top: 350px;
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+.c4 {
+    background-color:slateblue ;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}

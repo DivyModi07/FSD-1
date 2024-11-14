@@ -1,0 +1,4 @@
+.p1{display: none;}
+.p2{display: inline;color: tomato;} /* Height not applied in inline display*/
+.p3{display: block;color: tomato;}
+.p4{display: inline-block;color: tomato;}

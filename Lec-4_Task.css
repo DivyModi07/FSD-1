@@ -1,0 +1,23 @@
+.parent{
+    display: flex;
+}
+.c1{
+    width: 60%;
+    border:2px solid blue;
+}
+.c2 {
+    width: 40%;
+    border: 2px red;
+    border-style: dashed dashed double dashed;
+}
+.i1{
+    position: relative;
+    float: right;
+    /* top: 50px; */
+}
+.i2 {
+    position: relative;
+    float: left;
+    /* top:50px; */
+    
+}
