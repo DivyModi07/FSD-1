@@ -1,0 +1,42 @@
+div {
+    height: 200px;
+    width: 300px;
+    float: left;
+    border: 1px solid blue;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.p1 {
+    background-image: radial-gradient(red, blue, tomato);
+}
+
+.p2 {
+    background-image: radial-gradient(to right, red, blue, tomato);
+}
+
+.p3 {
+    background-image: radial-gradient(circle, red 30%, blue 30%, tomato 40%);
+}
+
+.p4 {
+    background-image: radial-gradient(-30deg, red, blue, tomato);
+}
+
+.p5 {
+    background-image: radial-gradient(circle,red 20%, blue 60%, tomato 10%);
+
+}
+
+.p7 {
+    background-image: repeating-radial-gradient(red 10%, blue 20%, tomato 20%);
+}
+
+.p6 {
+    background-image: radial-gradient(red 10%, blue 40%, tomato);
+}
+
+.p1 {
+    background-image: radial-gradient(red, blue, tomato);
+}

@@ -1,0 +1,13 @@
+div {
+    height: 8%;
+    width: 90%;
+    border: 1px solid blue;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.p1 {
+    background-image: linear-gradient(to right,red,orange,yellow,green,blue,purple);
+}
