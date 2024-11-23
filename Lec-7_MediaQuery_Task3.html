@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .pagination {
+            display: inline-block;
+        }
+
+        .pagination a {
+            text-decoration: none;
+            background-color: rgb(253, 190, 109);
+            color: white;
+            padding: 20px;
+            margin: -2px;
+        }
+
+        a:hover:not(.active) {
+            background-color: rgb(253, 190, 109);
+            opacity: 0.6;
+            color: white;
+        }
+
+        @media only screen and (max-width:600px) {
+            a{
+                display: block;
+            }
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="pagination">
+        <a href="#">Link1</a>
+        <a href="#">Link2</a>
+        <a href="#">Link3</a>
+    </div>
+</body>
+
+</html>

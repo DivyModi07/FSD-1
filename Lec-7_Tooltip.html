@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .tooltip {
+            display: inline-block;
+            border: 1px solid blue;
+        }
+
+        .text {
+            visibility: hidden;
+            background-color: black;
+            color: white;
+            position: absolute;
+        }
+
+        .tooltip:hover .text {
+            visibility: visible;
+            top: 50px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="tooltip">Click Here
+        <span class="text">Hidden Image</span>
+    </div>
+</body>
+
+</html>
