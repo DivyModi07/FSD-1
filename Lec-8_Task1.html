@@ -1,0 +1,46 @@
+<!-- Write a html and css code to design sign up form having fills like user name
+     password,checkbox of sports,gender-fill,submit and reset button.Follo below actions:
+     1. While hovering on user-name and password,its backgroung should turn into yellow
+        and pink respectively.
+     2. While clicking on sports and gender fills color of text should tern red. 
+     3. While hovering submit and reset button,color should turn into blue.
+     Use appropiate selector to achieve the task-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        input[type="text"]:hover {
+            background-color: yellow;
+        }
+
+        input[type="password"]:hover {
+            background-color: pink;
+        }
+
+        .a:active {
+            color: red;
+        }
+
+        .b:hover {
+            background-color: blue;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        Username : <input type="text"><br><br>
+        Password : <input type="password"><br><br>
+        <label class="a">Sports : <input type="checkbox" id="sport">Cricket
+            <input type="checkbox" id="sport">Hockey<br><br></label>
+        <label class="a">Gender : <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female<br><br>
+            <input type="submit" class="b">
+            <input type="reset" class="b">
+    </form>
+</body>
+
+</html>
